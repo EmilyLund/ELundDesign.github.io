@@ -1,0 +1,27 @@
+h1 {
+    color: rgb(24, 104, 64);
+    text-align: center;
+}
+
+body {
+    background-color: rgb(206, 224, 206);
+}
+
+ul {
+    list-style-type: square;
+    color: rgb(97, 65, 156);
+}
+
+ol {
+    list-style-type: decimal;
+    color: rgb(61, 37, 107);
+    text-align: justify;
+    list-style-position: inside;
+    font-weight: bold;
+}
+
+li {
+    margin: 10px;
+    font-size: 18px;
+    font: verdana
+}
