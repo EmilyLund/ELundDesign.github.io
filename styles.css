@@ -15,13 +15,11 @@ h6 {
 .header-wrapper {
     height: 140px;
     background-color: #3b5633;
-    color: #ffffff;
+    color: #E8EFEA;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    padding: 60px 100px;
     position: sticky;
-    position: -webkit-sticky;
     top: 0;
 }
 
@@ -32,7 +30,7 @@ h6 {
 
 .header-styles {
     font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 1em;
+    font-size: 20em;
 }
 
 .center-column {
@@ -41,26 +39,28 @@ h6 {
 
 .logo {
     display: flex;
-    justify-content: center;
-    margin-bottom: 42px;
+    justify-content: start;
+    align-content: end;
 }
 
 .logo img {
-    width: 216px;
-    height: 100%;
+    width: 60%;
+    height: 60%;
 }
 
 .link-wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
+.page-header {}
+
 .nav-link {
-    width: 100px;
+    width: 180px;
     text-align: space-evenly;
     font-family: 'Ubuntu Condensed', sans-serif;
-    color: #ffffff;
+    color: #E8EFEA;
     text-decoration: none;
     transition: 0.5s;
 }
@@ -70,31 +70,18 @@ h6 {
     letter-spacing: 2px;
 }
 
-.right-column {
-    display: flex;
-    align-items: center;
-}
-
-.icon {
-    font-size: 2em;
-}
-
-.icon-mr {
-    margin-right: 15px;
-}
-
-.icon-ml {
-    margin-left: 15px;
-}
-
 .main-section {
-    background-image: url(assets/calla_lily_brooch.jpg);
+    background-image: url(assets/calla_lily_brooch2.jpg);
     padding: 180px;
     height: 300px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    flex-direction: column;
 }
 
 .top-heading {
@@ -102,33 +89,29 @@ h6 {
     background-color: #414742;
     color: #b0c7aa;
     width: 180px;
-    border-radius: 2px;
+    border-radius: 25px;
 }
 
 .bottom-heading {
     background-color: #b0c7aa;
     color: #414742;
     padding: 1px 20px;
-    margin-top: 15px;
     width: 107px;
-    border-radius: 2px;
+    border-radius: 25px;
 }
 
 .about-section {
-    height: 400px;
-    background-image: url(assets/kayak-multiple.png);
+    height: 300px;
     background-color: #6b9b5d;
-    border-top: 10px solid white;
     color: #ffffff;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     font-family: 'Ubuntu Condensed', sans-serif;
     box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
 }
 
 .columns-wrapper {
-    width: 1000px;
     display: flex;
     justify-content: space-between;
 }
@@ -144,10 +127,6 @@ h6 {
 
 .column:hover {
     border-bottom: 5px solid #ffffff;
-}
-
-.column-icon {
-    font-size: 3em;
 }
 
 .column-title {
