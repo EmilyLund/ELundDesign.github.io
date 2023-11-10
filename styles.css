@@ -29,11 +29,6 @@ h6 {
     align-items: center;
 }
 
-.header-styles {
-    font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 20em;
-}
-
 .right-column {
     width: 1300px;
 }
@@ -59,24 +54,22 @@ h6 {
 .page-header {
     width: 180px;
     text-align: space-evenly;
-    font-family: 'Ubuntu Condensed', sans-serif;
     color: #b0c7aa;
-    text-decoration: none;
-    transition: 0.5s;
+    letter-spacing: 1.5px;
 }
 
 .nav-link {
     width: 180px;
     text-align: space-evenly;
-    font-family: 'Ubuntu Condensed', sans-serif;
     color: #b0c7aa;
     text-decoration: none;
+    letter-spacing: 1.25px;
     transition: 0.5s;
 }
 
 .nav-link:hover {
     color: #bcca99;
-    letter-spacing: 2px;
+    letter-spacing: 2.5px;
 }
 
 .main-section {
