@@ -47,6 +47,7 @@ h6 {
 .logo img {
     width: 60%;
     height: 60%;
+    border-radius: 0px;
 }
 
 .link-wrapper {
@@ -98,6 +99,7 @@ h6 {
     color: #b0c7aa;
     width: 180px;
     border-radius: 25px;
+    text-decoration: none;
 }
 
 .bottom-heading {
@@ -106,6 +108,7 @@ h6 {
     padding: 1px 20px;
     width: 107px;
     border-radius: 25px;
+    text-decoration: none;
 }
 
 .about-section {
@@ -175,6 +178,15 @@ img {
     flex: 3;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    background-color: #b0c7aa;
+}
+
+.columns-container2 {
+    display: flex;
+    flex: 3;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #edfaf0;
 }
 
 .image-column {
@@ -204,6 +216,7 @@ img {
     left: 0;
 }
 
+
 .image-title {
     font-weight: bold;
     margin-top: 10px;
@@ -212,4 +225,5 @@ img {
 
 .image-column2:hover .second-image {
     display: block;
+    transition: ;
 }
